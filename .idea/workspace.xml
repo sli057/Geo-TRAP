@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c20bb4c2-45cb-4936-b410-3bd8897819d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/install.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/install.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="88" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="88" />
+              <first_editor relative-caret-position="215">
+                <caret line="173" selection-start-line="173" selection-end-line="176" selection-end-column="50" />
                 <folding>
                   <element signature="e#0#12#0" expanded="true" />
                 </folding>
@@ -53,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="127">
-                <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
-    <option name="y" value="105" />
+    <option name="x" value="35" />
+    <option name="y" value="119" />
     <option name="width" value="1336" />
     <option name="height" value="725" />
   </component>
@@ -200,7 +199,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="105" width="1336" height="725" extended-state="0" />
+    <frame x="35" y="119" width="1336" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -634,8 +633,8 @@
     <entry file="file://$PROJECT_DIR$/install.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="88" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="88" />
+          <first_editor relative-caret-position="215">
+            <caret line="173" selection-start-line="173" selection-end-line="176" selection-end-column="50" />
             <folding>
               <element signature="e#0#12#0" expanded="true" />
             </folding>
@@ -647,8 +646,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="127">
-            <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
           </first_editor>
           <second_editor />
         </state>
