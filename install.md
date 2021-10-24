@@ -8,7 +8,7 @@ We provide some tips related to MMAction2 installation in this file. For the ori
 <!-- TOC -->
 
 - [Requirements](#requirements)
-- [Install MMAction2 within Geo-TRAP](#install-mmaction2)
+- [Install MMAction2 within Geo-TRAP](#install-mmaction2-within-geo-trap)
 - [A from-scratch setup script](#a-from-scratch-setup-script)
 - [Verification](#verification)
 
@@ -146,7 +146,8 @@ valid keys for the `[optional]` field are `all`, `tests`, `build`, and `optional
 
 ### A from-scratch setup script
 
-Here is a full script for setting up MMAction2 with conda and link the dataset path (supposing that your Kinetics-400 dataset path is $KINETICS400_ROOT).
+Here is a full script for setting up MMAction2 with conda and link the dataset path 
+(supposing that your Jester dataset path is $JESTER_ROOT and your UCF-101 dataset path is $UCF101_ROOT).
 
 ```shell
 conda create -n open-mmlab python=3.7 -y
@@ -165,8 +166,15 @@ pip install -r requirements/build.txt
 python setup.py develop
 
 mkdir data
-ln -s $KINETICS400_ROOT data
+cd data
+ln -s $UCF101_ROOT ucf101
+ln -s $JESTER_ROOT jester
 ```
+
+For more details on data preparation, you can refer to
+
+* [preparing_ucf101](/tools/data/ucf101/README.md)
+* [preparing_jester](/tools/data/jester/README.md)
 
 
 ### Verification
