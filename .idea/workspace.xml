@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20bb4c2-45cb-4936-b410-3bd8897819d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmaction/apis/MP_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmaction/apis/MP_train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmaction/core/optimizer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmaction/core/optimizer/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmaction/core/optimizer/generator_optimizer_constructor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmaction/core/runner/hooks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmaction/core/runner/hooks/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_attack/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/query_attack/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/core/runner/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmaction/core/runner/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,11 +72,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mmaction/core/runner/hooks/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mmaction/core/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mmaction/core/runner/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,6 +133,7 @@
         <option value="$PROJECT_DIR$/tools/__init__.py" />
         <option value="$PROJECT_DIR$/mmaction/core/optimizer/__init__.py" />
         <option value="$PROJECT_DIR$/mmaction/core/runner/hooks/__init__.py" />
+        <option value="$PROJECT_DIR$/mmaction/core/runner/__init__.py" />
       </list>
     </option>
   </component>
@@ -152,29 +169,6 @@
             <path>
               <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-              <item name="localization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-              <item name="recognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-              <item name="recognition_audio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
               <item name="mmaction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,36 +188,84 @@
               <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
               <item name="mmaction" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="lr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="optimizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
               <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-              <item name="hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="localization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="backbones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="heads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="localizers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="losses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="necks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="recognizers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="requirements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,15 +326,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/analysis/analyze_logs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/analysis/bench_processing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -704,6 +737,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmaction/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmaction/core/runner/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
