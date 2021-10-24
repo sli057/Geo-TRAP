@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c20bb4c2-45cb-4936-b410-3bd8897819d6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/mmaction/core/runner/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmaction/core/runner/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/core/runner/hooks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/core/runner/hooks/alternative_train_generator_optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/core/runner/pair_runner.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/query_commands.bash">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -73,15 +76,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mmaction/core/runner/hooks/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mmaction/core/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -95,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mmaction/core/runner/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="45">
+              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -187,91 +181,6 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
-              <item name="hooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="localization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="backbones" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="heads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="localizers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="losses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="necks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="mmaction" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="recognizers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="requirements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -309,7 +218,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1336" height="725" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26692015" />
@@ -626,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/query_commands.bash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/query_attack/decompose_query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -728,22 +629,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmaction/core/optimizer/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mmaction/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/query_commands.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -754,10 +652,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mmaction/core/optimizer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mmaction/core/runner/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="45">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
         </state>
       </provider>
     </entry>
