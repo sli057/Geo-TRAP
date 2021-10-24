@@ -1,11 +1,14 @@
 ## Installation
 
-We provide some tips for related to MMAction2 installation in this file. For the original instruction, please see here.
+Geo-TRAP is implemented based on [MMAction2](https://github.com/open-mmlab/mmaction2.git). 
+Therefore, we need to install the requirements of MMAction2.
+
+We provide some tips related to MMAction2 installation in this file. For the original instruction, please see [here](https://github.com/open-mmlab/mmaction2/blob/master/docs/install.md).
 
 <!-- TOC -->
 
 - [Requirements](#requirements)
-- [Install MMAction2](#install-mmaction2)
+- [Install MMAction2 within Geo-TRAP](#install-mmaction2)
 - [A from-scratch setup script](#a-from-scratch-setup-script)
 - [Verification](#verification)
 
@@ -42,7 +45,7 @@ conda install -y jpeg libtiff
 **Note**:  You need to run `pip uninstall mmcv` first if you have mmcv installed.
 If mmcv and mmcv-full are both installed, there will be `ModuleNotFoundError`.
 
-### Install MMAction2
+### Install MMAction2 within Geo-TRAP
 
 a. Create a conda virtual environment and activate it.
 
@@ -102,11 +105,11 @@ pip install mmcv-full
 
 **Important:** You need to run `pip uninstall mmcv` first if you have mmcv installed. If mmcv and mmcv-full are both installed, there will be `ModuleNotFoundError`.
 
-d. Clone the MMAction2 repository
+d. Clone the GeoTRAP repository
 
 ```shell
-git clone https://github.com/open-mmlab/mmaction2.git
-cd mmaction2
+https://github.com/sli057/Geo-TRAP.git
+cd Geo-TRAP
 ```
 
 d. Install build requirements and then install MMAction2.
@@ -156,8 +159,8 @@ conda install -c pytorch pytorch torchvision -y
 pip install mmcv
 
 # install mmaction2
-git clone https://github.com/open-mmlab/mmaction2.git
-cd mmaction2
+git clone https://github.com/sli057/Geo-TRAP.git
+cd Geo-TRAP
 pip install -r requirements/build.txt
 python setup.py develop
 
