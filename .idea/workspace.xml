@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20bb4c2-45cb-4936-b410-3bd8897819d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tools/query_commands_jester.bash" beforeDir="false" afterPath="$PROJECT_DIR$/tools/query_commands_jester.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/DecomposeMP_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/DecomposeMP_model_affine_tale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/DecomposeMP_model_tale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/DecomposeMP_perspective_tale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/MP_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/MP_model_tale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmaction/models/geotransfrom/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/flicker_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/flicker_model_tale_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/regression_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmaction/models/geotransfrom/regression_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/resnet3d_dec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmaction/models/geotransfrom/test_grid_sample.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,17 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mmaction/core/evaluation/eval_hooks_MP.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mmaction/core/lr/tin_lr_hook.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +91,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query_attack/query_frame_util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="141">
+              <caret line="350" column="26" lean-forward="true" selection-start-line="350" selection-start-column="26" selection-end-line="350" selection-end-column="26" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mmaction/models/geotransfrom/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -109,10 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mmaction/models/pgenerators/regression_head.py">
+        <entry file="file://$PROJECT_DIR$/mmaction/models/geotransfrom/regression_head.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7050">
-              <caret line="470" column="6" selection-start-line="470" selection-start-column="6" selection-end-line="470" selection-end-column="6" />
+            <state relative-caret-position="168">
+              <caret line="234" column="26" lean-forward="true" selection-start-line="234" selection-start-column="26" selection-end-line="234" selection-end-column="26" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -122,6 +132,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pgenerators</find>
+      <find>geotr</find>
+      <find>PerspectiveRegressionHead</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -130,6 +147,8 @@
       <list>
         <option value="$PROJECT_DIR$/install.md" />
         <option value="$PROJECT_DIR$/tools/query_commands_jester.bash" />
+        <option value="$PROJECT_DIR$/mmaction/models/geotransfrom/regression_head.py" />
+        <option value="$PROJECT_DIR$/mmaction/models/geotransfrom/__init__.py" />
       </list>
     </option>
   </component>
@@ -178,7 +197,7 @@
               <item name="Geo-TRAP" type="462c0819:PsiDirectoryNode" />
               <item name="mmaction" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="pgenerators" type="462c0819:PsiDirectoryNode" />
+              <item name="geotransfrom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Geo-TRAP" type="b2602c69:ProjectViewProjectNode" />
@@ -222,6 +241,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-25" y="23" width="1336" height="725" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26692015" />
@@ -231,7 +251,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.328594" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -551,16 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query_attack/query_frame_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/query_commands_jester.bash">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -568,10 +578,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmaction/models/pgenerators/regression_head.py">
+    <entry file="file://$PROJECT_DIR$/mmaction/models/geotransfrom/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7050">
-          <caret line="470" column="6" selection-start-line="470" selection-start-column="6" selection-end-line="470" selection-end-column="6" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_attack/query_frame_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="350" column="26" lean-forward="true" selection-start-line="350" selection-start-column="26" selection-end-line="350" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmaction/models/geotransfrom/regression_head.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="234" column="26" lean-forward="true" selection-start-line="234" selection-start-column="26" selection-end-line="234" selection-end-column="26" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
