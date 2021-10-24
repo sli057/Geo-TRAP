@@ -14,10 +14,7 @@ from .necks import TPN
 from .recognizers import (AudioRecognizer, BaseRecognizer, recognizer2d,
                           recognizer3d)
 from .registry import BACKBONES, HEADS, LOCALIZERS, LOSSES, RECOGNIZERS
-from .geotransfrom import (MPGDTarget, MPGDUnTarget, MPGDUnTargetStatic,
-                           DecomposeG, DecomposeTargetedG,
-                           DecomposeGDUnTarget, DecomposeGDTarget, DecomposeGDOneTarget,
-                           FlickerGeneratorUnTarget, FlickerGDUnTarget)
+
 
 __all__ = [
     'BACKBONES', 'HEADS', 'RECOGNIZERS', 'build_recognizer', 'build_head',
@@ -30,8 +27,4 @@ __all__ = [
     'build_model', 'OHEMHingeLoss', 'SSNLoss', 'ResNet3dCSN', 'ResNetTIN',
     'TPN', 'TPNHead', 'build_loss', 'build_neck', 'AudioRecognizer',
     'AudioTSNHead', 'X3D', 'X3DHead', 'ResNetAudio', 'ConvAudio',
-    'MPGDTarget', 'MPGDUnTarget', 'MPGDUnTargetStatic',
-    'DecomposeG', 'DecomposeTargetedG',
-    'DecomposeGDUnTarget', 'DecomposeGDTarget', 'DecomposeGDOneTarget',
-    'FlickerGeneratorUnTarget', 'FlickerGDUnTarget'
 ]

@@ -11,7 +11,7 @@ python query_attack/decompose_query.py --config configs/recognition/c3d/c3d_jest
                          --config_rec configs/recognition/c3d/c3d_sports1m_16x1x1_45e_jester_rgb.py \
                          --checkpoint_rec work_dirs/c3d_sports1m_16x1x1_45e_jester_rgb/epoch_30.pth \
                          --work-dir decompose_query_version1 \
-                         --transform_type_query  affine
+                         --transform_type_query  affine --targeted
 
 #                           slowfast
                          --config_rec configs/recognition/slowfast/slowfast_r50_video_4x16x1_256e_jester_rgb.py \
