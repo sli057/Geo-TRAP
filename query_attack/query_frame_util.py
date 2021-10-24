@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from mmaction.models.pgenerators.regression_head import PerspectiveRegressionHead
+from mmaction.models.geotransfrom.regression_head import PerspectiveRegressionHead
 import random
 
 #random.seed(1)

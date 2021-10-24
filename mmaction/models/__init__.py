@@ -14,10 +14,10 @@ from .necks import TPN
 from .recognizers import (AudioRecognizer, BaseRecognizer, recognizer2d,
                           recognizer3d)
 from .registry import BACKBONES, HEADS, LOCALIZERS, LOSSES, RECOGNIZERS
-from .pgenerators import (MPGDTarget, MPGDUnTarget, MPGDUnTargetStatic,
-                          DecomposeG, DecomposeTargetedG,
-                          DecomposeGDUnTarget, DecomposeGDTarget, DecomposeGDOneTarget,
-                          FlickerGeneratorUnTarget, FlickerGDUnTarget)
+from .geotransfrom import (MPGDTarget, MPGDUnTarget, MPGDUnTargetStatic,
+                           DecomposeG, DecomposeTargetedG,
+                           DecomposeGDUnTarget, DecomposeGDTarget, DecomposeGDOneTarget,
+                           FlickerGeneratorUnTarget, FlickerGDUnTarget)
 
 __all__ = [
     'BACKBONES', 'HEADS', 'RECOGNIZERS', 'build_recognizer', 'build_head',
