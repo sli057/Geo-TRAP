@@ -1,30 +1,20 @@
 import argparse
-import copy
 import os
 import os.path as osp
 import time
-import warnings
-
 import mmcv
 import torch
 import torch.nn as nn
 from mmcv import Config, DictAction
 from mmcv.runner import init_dist, set_random_seed, load_checkpoint
-from mmcv.utils import get_git_hash
 from mmcv.parallel import MMDataParallel
-
-from mmaction import __version__
-from mmaction.apis import train_MP_model
 from mmaction.datasets import build_dataset
 from mmaction.models import build_model
 from mmaction.utils import collect_env, get_root_logger
-
-from mmaction.models import FlickerGDUnTarget
 import numpy as np
 from tools import ucf_cls2label, jester_cls2label
-from tools import save_clip
 from query_attack import perturbation_image_decompose_from_scratch
-# import random
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Decompose Attack')
@@ -32,7 +22,8 @@ def parse_args():
         '--targeted',
         action='store_true',
         help='whether to do targeted attack')
-    parser.add_argument('--work-dir', help='the name of the work dir to save logs and models')
+    parser.add_argument('--work-dir', default=None,
+                        help='the name of the work dir to save logs and models')
     parser.add_argument('--config',
                         default='configs/recognition/c3d/c3d_jester_MotionPerturbation.py',
                         # default='configs/recognition/c3d/c3d_ucf_MotionPerturbation.py',
